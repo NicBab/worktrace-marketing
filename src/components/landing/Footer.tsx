@@ -1,4 +1,6 @@
 import { Logo } from "./Logo";
+import { FOOTER_NAVIGATION, LEGAL_NAVIGATION } from "@/constants/navigation";
+import { SITE_CONFIG } from "@/constants/site";
 
 const cols = [
   {
@@ -19,7 +21,7 @@ const cols = [
   },
 ];
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="border-t border-border/60 bg-surface/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

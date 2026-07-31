@@ -14,7 +14,7 @@ const links = [
   { href: "#faq", label: "FAQ" },
 ];
 
-export function Navbar() {
+export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
